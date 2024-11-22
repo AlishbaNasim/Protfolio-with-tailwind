@@ -24,11 +24,11 @@ function Hero() {
         <p className="text-lg mb-4">Front-end Developer</p>
 
         <div className="flex justify-center md:justify-start space-x-4">
-          <button className="px-6 py-3 bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300">
-            <Link href="/project">View my work</Link>
+           <button className="px-6 py-3 bg-green-600 rounded-full hover:bg-green-700 transition duration-300">
+           <Link href="/Contact">Get in Touch</Link>
           </button>
-          <button className="px-6 py-3 bg-green-600 rounded-full hover:bg-green-700 transition duration-300">
-            <Link href="/contact">Get in Touch</Link>
+          <button className="px-6 py-3 bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300">
+            <a href="/alishba'sCv.pdf" download>Download Cv</a>
           </button>
         </div>
       </div>
